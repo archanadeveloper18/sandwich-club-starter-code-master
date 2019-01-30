@@ -11,12 +11,18 @@ is a common task for Android Developers. Although JSON parsing is usually
 done using libraries, writing the JSON parsing for  this project will
 help you to better understand how it is processed.
 
-## What Will I Learn?
-Through this project, you will:
-- Learn how to submit projects for review
-- Practice JSON parsing to a model object
-- Design an activity layout
-- Populate all fields in the layout accordingly
+MEETS SPECIFICATIONS
+
+->JSON data is parsed correctly to a Sandwich object in JsonUtils
+
+->JSON is parsed without using 3rd party libraries
+
+->DetailActivity shows all Sandwich details correctly
+
+->Detail layout includes a ScrollView so all the details are visible in small screen devices
+
+->Sandwich details are shown in a sensible layout. For example, ingredients appear next to the ingredients label
+
 
 ## How Do I Complete this Project?
 Download the [Sandwich Club app starter code.](https://github.com/udacity/sandwich-club-starter-code)
